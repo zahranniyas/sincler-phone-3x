@@ -1,0 +1,26 @@
+{
+    "extends": [
+        "standard",
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
+        "plugin:tailwindcss/recommended",
+        "plugin:@react-three/recommended",
+        "prettier"
+    ],
+    "rules": {
+        "max-len": [2, 250],
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxEOF": 1
+            }
+        ],
+        "object-curly-newline": 0,
+        "react/prop-types": 0,
+        "react/no-unknown-property": [
+            1,
+            { "ignore": ["position", "angle", "penumbra", "decay", "intensity", "dispose", "castShadow", "receiveShadow", "geometry", "material", "roughness", "map", "rotation"] }
+        ]
+    }
+}
