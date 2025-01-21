@@ -43,7 +43,10 @@ const Features = () => {
   }, []);
 
   return (
-    <section className="common-padding relative h-full overflow-hidden bg-zinc">
+    <section
+      id="features"
+      className="common-padding relative h-full overflow-hidden bg-zinc"
+    >
       <div className="screen-max-width">
         <div className="mb-12 w-full">
           <h1 id="featuresTitle" className="section-heading">

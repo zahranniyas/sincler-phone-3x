@@ -7,16 +7,19 @@ const Navbar = () => {
   return (
     <header className="fixed z-40 flex w-full items-center justify-between bg-black p-5 sm:px-10">
       <nav className="screen-max-width flex w-full">
-        <img src={appleImg} alt="Apple" width={100} height={21.76} />
+        <a href="/">
+          <img src={appleImg} alt="Apple" width={100} height={21.76} />
+        </a>
 
         <div className="flex flex-1 justify-center max-sm:hidden">
           {navLists.map((nav, i) => (
-            <div
-              key={nav}
+            <a
+              href={nav.url}
+              key={i}
               className="cursor-pointer px-5 text-sm text-gray transition-all hover:text-white"
             >
-              {nav}
-            </div>
+              {nav.name}
+            </a>
           ))}
         </div>
         <div className="flex items-baseline gap-7 max-sm:flex-1 max-sm:justify-end">

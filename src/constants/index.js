@@ -8,7 +8,28 @@ import {
   vid,
 } from "../utils";
 
-export const navLists = ["Home", "Features", "3D View", "Material", "Contact"];
+export const navLists = [
+  {
+    name: "Home",
+    url: "/",
+  },
+  {
+    name: "Features",
+    url: "#highlights",
+  },
+  {
+    name: "3D View",
+    url: "#model",
+  },
+  {
+    name: "Materials",
+    url: "#features",
+  },
+  {
+    name: "Contact",
+    url: "#contact",
+  },
+];
 
 export const hightlightsSlides = [
   {
