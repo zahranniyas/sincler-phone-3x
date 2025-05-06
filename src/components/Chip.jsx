@@ -69,7 +69,7 @@ const Chip = () => {
           </div>
 
           <p className="mt-3 text-center font-semibold text-gray">
-            Honkai: Star Rail
+            Assassin&apos;s Creed Mirage
           </p>
         </div>
         <div className="hiw-text-container">

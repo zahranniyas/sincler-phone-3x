@@ -1,4 +1,4 @@
-import { appleImg, bagImg, searchImg } from "../utils";
+import { appleImg } from "../utils";
 import { navLists } from "../constants";
 import { FaBagShopping } from "react-icons/fa6";
 import { FiSearch } from "react-icons/fi";

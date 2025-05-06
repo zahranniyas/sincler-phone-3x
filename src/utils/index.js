@@ -12,7 +12,7 @@ import highlightTwo from "/assets/videos/highlight-02.mp4";
 import highlightThree from "/assets/videos/highlight-03.mp4";
 import highlightFour from "/assets/videos/highlight-04.mp4";
 import exploremv from "/assets/videos/explore-02.mp4";
-import framemv from "/assets/videos/frame.mp4";
+import framemv from "/assets/videos/frame-2.mp4";
 
 import apple from "/assets/images/sinc-logo-horz.png";
 import search from "/assets/images/search.svg";
